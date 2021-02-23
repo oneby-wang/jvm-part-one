@@ -10,9 +10,11 @@ public class LocalVariablesTest {
     private int count = 0;
 
     public static void main(String[] args) {
-        LocalVariablesTest test = new LocalVariablesTest();
+        if(args == null){
+            LocalVariablesTest test = new LocalVariablesTest();
+            System.out.println();
+        }
         int num = 10;
-        test.test1();
     }
 
     //练习：

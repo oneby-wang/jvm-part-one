@@ -2,7 +2,7 @@ package com.atguigu.java2;
 
 /**
  * 栈上分配测试
- * -Xmx1G -Xms1G -XX:-DoEscapeAnalysis -XX:+PrintGCDetails
+ * -Xmx1G -Xms1G -XX:+DoEscapeAnalysis -XX:+EliminateAllocations -XX:+PrintGCDetails
  * @author shkstart  shkstart@126.com
  * @create 2020  10:31
  */
